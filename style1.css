@@ -1,0 +1,28 @@
+.wrap{
+background: red;
+min-width: 600px;
+width: 80%;
+margin: auto;
+overflow: hidden;
+}
+.content{
+	float: left;
+	background: green;
+	height: 500px;
+	width: 80%;
+}
+aside{
+	float: left;
+	background: grey;
+	height: 500px;
+	width: 20%;
+}
+
+aside ul{
+	list-style: none;
+	padding: 0;
+}
+footer{
+	clear: both;
+	background: pink;
+}

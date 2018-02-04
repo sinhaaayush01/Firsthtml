@@ -1,11 +1,20 @@
 body{
-	width: 500px;
 	background-color: lightgrey;
-	margin: auto;
+}
+
+.wrappy{
+width: 500px;
+margin: auto;
 }
 blockquote{
-	border: solid;
-	border-color: white;
-	text-align: center;
+	border: solid white;
 	padding: 10px;
+	text-align: center;
+	margin-left: 0;
+	}
+	h1{
+		font-family: sans-serif;
+	}
+	h2{
+		font-family: sans-serif;
 	}
