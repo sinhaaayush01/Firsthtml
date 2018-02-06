@@ -1,0 +1,12 @@
+li{
+	display: inline;
+
+}
+ul a{
+	text-decoration: none;
+	padding-right: 10px; 
+}
+ul a:hover{
+	text-decoration: overline;
+	font-size: 20px;
+}
