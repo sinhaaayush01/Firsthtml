@@ -6,6 +6,7 @@ body
 	font-size: 21px;
 	background: url("/home/aayush/Firsthtml/music.jpg") no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -14,10 +15,29 @@ body
 }
 header{
 	z-index: 10;
+	background: #F7DD72;
+	width: 100%;
+	max-height: 75px;
+	top: 0;
+	margin: 0 0 0 0;
 }
+.image1{
+	float: left;
+}
+.cl{
+	margin-top: 10px;
+	padding-left: 0px;
+	font-size: 60px;
+	font-style: none;
+	text-decoration: none;
+	width: 760px;
+	text-align: top;
+	color: #8FB996;
+}
+
 .header1{
 	display: flex;
-	text-align: left;
+	text-align: left;;
 }
 .image img{
 	width: 75px;
@@ -31,15 +51,25 @@ header{
 {
 	display: inline;
 	margin-right: 15px;
-	color: white;	
+	color: black;	
 }
-ul a:hover{
+.navbar ul li a{
+	color: black;
+}
+.navbar ul li a: hover{
+	color: #ADF1D2;
+}
+.navbar ul{
+	width: 400px;
+}
+a:hover{
 	color:#ADF1D2;
 }
 ul a{
 	color: white;
 }
 .navbar{
+	width: 600px;
 	flex: 1;
 	justify-content: space-between;
 }
@@ -66,6 +96,9 @@ ul a{
 	color: white;
 	font-size: 55px;
 }
+.textsection .tsec a: hover{
+	color: black;
+}
 .tsec1 ul li{
 	font-size: 25px;
 	list-style: none;
@@ -82,19 +115,16 @@ ul a{
 	flex: 1;
 	background: transparent;
 }
-.tsec a: hover{
-	color:#ADF1D2;
-}
 .columnlayout{
-	background: url("/home/aayush/Firsthtml/background.jpg") no-repeat;
+	background: url("/home/aayush/Firsthtml/background.jpg") no-repeat;	
 	background-size: cover;
 	position: absolute;
+	margin : 0 0 0 0;
 	height: 100%;
 	width: 100%;
 	text-align: center;
 	display: flex;
 	padding: 20px;
-	width: 100%;
 	height: 500px; 
 	margin-bottom: 30px;
 	box-sizing: border-box;
@@ -108,23 +138,65 @@ ul a{
 	margin-top: 20px;
 }
 .callout:nth-child(1){
- background-color: #070707;
- background: url(/home/aayush/Firsthtml/juke.jpg) no-repeat;
-}
+ 
+ box-shadow: 0 5px 5px 0px black;
+ background: url(/home/aayush/Firsthtml/juke.jpg) no-repeat
+ }
 .callout:nth-child(2){
- background-color: #755B69;
+ box-shadow: 0 5px 5px 0px black;
  background: url(/home/aayush/Firsthtml/90.jpg) no-repeat;
 }
-.callout:nth-child(3){
- background-color: #96C5B0;
+.callout:nth-child(3)
+{
+ box-shadow: 0 5px 5px 0px black;
  background: url(/home/aayush/Firsthtml/unplugged.jpg) no-repeat;
 }
 .foot{
 	position: absolute;
-	margin-top: 500px;
+	margin-top: 510px;
 	background: #231942;
 	width: 100%;
-	height: 30px;
+	max-height: 105px;
+	color: white;
+	display: flex;
+	flex:1;
+}
+.foot1{
+	flex:1;
+	align-content: flex-end;
+	margin : auto auto;
+	padding-left: 520px;
+}
+.foot a{
 	color: white;
 }
-
+.foot a: hover{
+	color: black;
+}
+.foot1 ul li{
+	display: inline;
+	padding-right: 40px;
+}
+.foot1 ul li a{
+	text-decoration: none;
+	color: white;
+}
+.heads{
+	color: Black;
+	background: #F1FAEE;
+	border-radius: 50px;
+	margin-top: 50px;
+	font-family: 'Lobster', cursive;
+	margin-bottom: 0px;
+	height: 70px;
+	text-align: center;
+	margin-top: px;
+	font-size: 60px;
+}
+.para{
+	margin: auto auto;
+	width:600px;
+}
+.foot1 ul li a: hover{
+	color: black;
+}
